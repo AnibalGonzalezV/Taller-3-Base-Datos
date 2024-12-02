@@ -12,5 +12,7 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 > If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
 ## Execute
+```powershell
 javac -d .\bin\ .\src\*.java
 java -cp ".\bin;lib/*" App
+```
